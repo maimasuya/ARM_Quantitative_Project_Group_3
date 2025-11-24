@@ -1,7 +1,16 @@
-# Tutorial how to install it
+# Which Building Age Gives You the Most m² per CHF in Switzerland?
 
-### Create Virtual Python Environment
+This project analyzes whether certain building-age categories offer better m²/CHF value in the Swiss rental market.
 
-1. In VS Code With the command Ctrl-Shift-P you can create a virtual environment
+## Data Sources
+- BFS Building Age datasets (bau515od5155–5158)
+- ~50 scraped rental listings (Homegate or Immoscout24)
 
-2. After this is created, select the requirements.txt to install all dependencies
+## Folder Structure
+/Data                # BFS CSVs + scraped data + SQLite DB
+/Notebooks           # Jupyter notebooks for scraping, cleaning, EDA, modelling
+/src                 # Python scripts (scraper, cleaning functions, helper funcs)
+/Reports             # Final slides, report, figures
+
+## Requirements
+See `requirements.txt` for all Python dependencies.
