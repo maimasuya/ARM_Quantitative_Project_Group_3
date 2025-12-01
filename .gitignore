@@ -1,11 +1,16 @@
-# Ignore data
-Data/*.db
-Data/*.csv
-Data/*.xlsx
-
-# Ignore Python environment
+# Python cache
 __pycache__/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Ignore system files
-.DS_Store
+# Databases
+*.db
+Data/*.db
+
+# HTML exports
+*.html
+
+# VS Code
+.vscode/
+
